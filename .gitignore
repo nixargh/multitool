@@ -1,0 +1,11 @@
+test_data/
+build/
+dist/
+techopslibvenv/python3techopslibvenv
+*.pyc
+*.sw[a-z]
+*.yaml
+*.egg-info/*
+*.eggs/*
+.coverage
+.venv/*
