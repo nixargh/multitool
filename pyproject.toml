@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools >= 80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multitool_nixargh"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dynamic = ["authors", "description", "version", "dependencies", "scripts"]
+
+[project.urls]
+Homepage = "https://github.com/nixargh/multitool"
+Issues = "https://github.com/nixargh/multitool/issues"
